@@ -2,7 +2,7 @@ import './Header.scss'
 import WeddingAgencyLogo from '../components/WeddingAgencyLogo';
 import React, { useState, useEffect } from 'react';
 
-export default function Header() {
+function Header() {
     const [drawerstate, setdrawerstate] = useState(false);
     const [drawerstyle, setdrawerstyle] = useState('none');
     const [width, setWidth] = useState(window.innerWidth);
@@ -37,3 +37,5 @@ export default function Header() {
         </div>
     )
 }
+
+export default Header
