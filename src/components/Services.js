@@ -5,15 +5,15 @@ function Services() {
     return (
         <div className="services">
             <div className="service-content-a">
-                <div className="service-a-detail">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" className="service-a-detail">
                     <p className="p-main-1">Better to have loved and lost, Than to have never loved</p>
                     <p className="p-desc-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Excepteur sint occaecat cupidatat non proident.</p>
                     <div className="view-more-btn"><p>View More</p></div>
                 </div>
-                <img src="./public-images/couple.png" alt="couple images"></img>
+                <img data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" src="./public-images/couple.png" alt="couple images"></img>
             </div>
 
-            <div className="service-content-b">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className="service-content-b">
                 <div className="b-main-title"><p>Better Services</p></div>
                 <div className="b-card-list">
                     <div className="card-item">

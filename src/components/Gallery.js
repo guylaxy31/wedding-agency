@@ -4,7 +4,7 @@ import './Gallery.scss'
 function Gallery() {
     return (
         <div className="gallery">
-            <div className="gall-container">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className="gall-container">
                 <p className="gall-title">Wedding Photo Gallery</p>
                 <div className="gall-list">
                     <div class="image-1-contain"><img src="./public-images/gall-1.svg" alt="gallery image1"></img></div>

@@ -28,7 +28,7 @@ function Header() {
                     }
                     <div></div>
                 </div>
-                <div className="header-content">
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className="header-content">
                     <h1>We Are Best Wedding Agency</h1>
                     <p>Perfect day & perfect time</p>
                     <div className="view-more-btn"><p>View More</p></div>

@@ -5,7 +5,7 @@ function Attending() {
     return (
         <div className="attending">
             <div className="at-form">
-                <div className="form-title"><p>Are You Attending?</p></div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" className="form-title"><p>Are You Attending?</p></div>
                 <div className="form-input">
                     <input placeholder="Name"></input>
                     <input placeholder="Email Address"></input>
