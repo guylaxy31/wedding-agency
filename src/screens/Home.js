@@ -3,6 +3,7 @@ import Services from '../components/Services'
 import Invitation from '../components/Invitation'
 import Gallery from '../components/Gallery'
 import Whatever from '../components/Whatever'
+import Blog from '../components/Blog'
 import './Home.scss'
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
             <Invitation />
             <Gallery />
             <Whatever />
+            <Blog />
         </div>
     );
 }
