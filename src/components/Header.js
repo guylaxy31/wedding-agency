@@ -20,7 +20,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header-bg">
-                <div className="drawer-btn"><img onClick={() => toggleDrawer()} src="./public-icon/drawer-icon.png"></img></div>
+                <div className="drawer-btn"><img onClick={() => toggleDrawer()} src="./public-icon/drawer-icon.png" alt="drawer icon"></img></div>
                 <div className="nav-container">
                     <div className="wedding-logo"><WeddingAgencyLogo className="main-logo" /></div>
                     {width > 768 ? <div className="nav-menu-list" ><a href="#">Home</a><a href="#">About us</a><a href="#">Services</a><a href="#">Gallery</a><a href="#">Blog</a><a href="#">Contact</a></div>
