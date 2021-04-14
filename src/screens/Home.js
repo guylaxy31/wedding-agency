@@ -4,6 +4,8 @@ import Invitation from '../components/Invitation'
 import Gallery from '../components/Gallery'
 import Whatever from '../components/Whatever'
 import Blog from '../components/Blog'
+import Attending from '../components/Attending'
+import Footer from '../components/Footer'
 import './Home.scss'
 
 function Home() {
@@ -15,6 +17,8 @@ function Home() {
             <Gallery />
             <Whatever />
             <Blog />
+            <Attending />
+            <Footer />
         </div>
     );
 }
