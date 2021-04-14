@@ -1,0 +1,277 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.header-bg {
+  min-width: 100%;
+  background-image: url("../assets/images/header-bg.svg");
+  height: 1041.85px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drawer-btn {
+  position: absolute;
+  display: none;
+  width: 95%;
+  margin-top: 64px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 24px;
+}
+
+.drawer-btn img {
+  width: 32px;
+}
+
+.drawer-btn > img:hover {
+  cursor: pointer;
+}
+
+.nav-container {
+  margin-top: 64px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wedding-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.wedding-logo:hover {
+  cursor: default;
+}
+
+.nav-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav-menu-list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Georgia";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 325px;
+}
+
+.header-content h1,
+.header-content p {
+  margin: 0;
+  color: #fff;
+}
+
+.header-content h1 {
+  margin-bottom: 56px;
+  font-family: "zap-pro";
+  font-size: 64px;
+}
+
+.header-content p {
+  font-size: 32px;
+}
+
+.header-content .view-more-btn {
+  margin-top: 40px;
+  width: 184px;
+  height: 64px;
+  background-color: #ed7e9e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content .view-more-btn > p {
+  font-size: 24px;
+}
+
+.header-content .view-more-btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-menu-list > a {
+    font-size: 16px;
+  }
+  .header-content > h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .header-content > p {
+    font-size: 24px;
+  }
+  .header-content .view-more-btn {
+    width: 152px;
+  }
+  .header-content .view-more-btn p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wedding-logo {
+    margin-bottom: 16px;
+  }
+  .nav-menu-list {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 24px;
+  }
+  .nav-menu-list a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-bg {
+    height: 800px;
+  }
+  .header-bg .nav-menu-list a {
+    margin-bottom: 8px;
+  }
+  .drawer-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-menu-list {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header-content {
+    margin-top: 160px;
+  }
+  .header-content h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+  .header-content p {
+    font-size: 20px;
+  }
+  .header-content .view-more-btn {
+    width: 104px;
+    height: 56px;
+  }
+  .header-content .view-more-btn p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-bg {
+    height: 640px;
+  }
+  .header-bg .drawer-btn img {
+    width: 24px;
+  }
+  .nav-container .wedding-logo .main-logo {
+    width: 120px;
+  }
+  .nav-menu-list a {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .header-content {
+    margin-top: 112px;
+  }
+  .header-content h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .header-content p {
+    font-size: 14px;
+  }
+  .header-content .view-more-btn {
+    width: 72px;
+    height: 32px;
+  }
+  .header-content .view-more-btn p {
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
