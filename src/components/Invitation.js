@@ -1,5 +1,5 @@
 import React from 'react';
-import './Invitation.scss'
+import '../assets/styles/Invitation.scss'
 
 function Invitation() {
     return (

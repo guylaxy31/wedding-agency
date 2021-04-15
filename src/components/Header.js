@@ -1,4 +1,4 @@
-import './Header.scss'
+import '../assets/styles/Header.scss'
 import WeddingAgencyLogo from '../components/WeddingAgencyLogo';
 import React, { useState, useEffect } from 'react';
 

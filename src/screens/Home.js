@@ -6,7 +6,7 @@ import Whatever from '../components/Whatever'
 import Blog from '../components/Blog'
 import Attending from '../components/Attending'
 import Footer from '../components/Footer'
-import './Home.scss'
+import '../assets/styles/Home.scss'
 
 function Home() {
     return (

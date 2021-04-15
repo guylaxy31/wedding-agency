@@ -1,5 +1,5 @@
 import React from 'react';
-import './Whatever.scss'
+import '../assets/styles/Whatever.scss'
 
 function Whatever() {
     return (

@@ -1,4 +1,4 @@
-import './App.scss';
+import './assets/styles/App.scss';
 import Home from './screens/Home'
 import AOS from 'aos';
 import 'aos/dist/aos.css';

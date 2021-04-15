@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.scss'
+import '../assets/styles/Footer.scss'
 import WeddingAgencyLogo from './WeddingAgencyLogo';
 
 function Footer() {

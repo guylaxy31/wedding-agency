@@ -1,5 +1,5 @@
 import React from 'react';
-import './Attending.scss'
+import '../assets/styles/Attending.scss'
 
 function Attending() {
     return (
